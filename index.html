@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0c0f">
+  <meta name="author" content="openspace lab">
+  <title>Dreamfold — Interactive World Model · Coming Soon</title>
+  <meta name="description" content="Dreamfold explores an egocentric world model driven by VR hand actions. Preview two action-conditioned futures. Full project coming soon.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dreamfold — Interactive World Model">
+  <meta property="og:description" content="One scene. Two actions. Two futures. A world model research preview. Full project coming soon.">
+  <link rel="icon" href="./logo.png" type="image/png">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="wrap">
+    <header class="header">
+      <a class="brand brand-lockup" href="./" aria-label="Dreamfold · openspace lab home"><img class="brand-logo" src="./logo.png" alt="openspace lab logo" width="64" height="64"><span class="brand-text">DREAMFOLD<span class="team-credit">by openspace lab</span></span></a>
+      <nav aria-label="Main navigation"><a href="#demo">Demo</a><a href="#release">Release</a></nav>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="eyebrow"><span class="status-dot" aria-hidden="true"></span> RESEARCH PREVIEW <span class="divider">/</span> COMING SOON</div>
+        <h1 id="hero-title">One scene.<br>Two actions. <span class="accent">Two futures.</span></h1>
+        <div class="hero-bottom">
+          <div><p class="subtitle">DREAMFOLD</p><p class="lead">Give the world an action. Let the future unfold.<br>Exploring an <strong>egocentric world model</strong> driven by VR hand actions.</p></div>
+          <a class="text-link" href="#demo">Explore the demo <span aria-hidden="true">↘</span></a>
+        </div>
+      </section>
+      <section class="concept" aria-label="Research concept">
+        <div class="section-label">01 / THE IDEA</div>
+        <div class="concept-content"><p>Describe an interactive scene in natural language, then use hand actions in VR to predict what happens next. This is the interaction Dreamfold aims to make possible.</p>
+          <div class="pipeline"><div><span class="step">01</span>Describe a scene</div><span aria-hidden="true">→</span><div><span class="step">02</span>Provide hand actions</div><span aria-hidden="true">→</span><div><span class="step">03</span>Generate the future</div></div>
+        </div>
+      </section>
+      <section class="demo" id="demo" aria-labelledby="demo-title">
+        <div class="section-label">02 / ACTION-CONDITIONED FUTURES</div>
+        <div class="section-top"><h2 id="demo-title">Same world.<br><span>Different reactions.</span></h2><p class="section-copy">Explore two possible futures in a tabletop puzzle scene, each conditioned on a different VR hand action. These are prerecorded previews; the full interactive system is coming soon.</p></div>
+        <div class="prompt-block"><span class="prompt-label">SCENE PROMPT</span><p>“Sit at a table and use both hands to complete the puzzle.”</p></div>
+        <div class="demo-toolbar" id="demo-toolbar" hidden><span>Compare two futures</span><div class="controls"><button id="play-all" type="button">Play both <span aria-hidden="true">↗</span></button><button id="pause-all" type="button">Pause both</button><button id="restart-all" type="button">Restart both <span aria-hidden="true">↻</span></button></div></div>
+        <div class="compare">
+          <article class="card"><div class="card-head"><h3><span class="action-letter">A</span> Action A</h3><span class="tag">VR HAND ACTION</span></div><div class="video-wrap"><video id="videoA" controls muted playsinline loop preload="metadata" aria-label="Future video conditioned on Action A" aria-describedby="caption-a"><source src="./49435776794c3f9425a80272c5150f27.mp4" type="video/mp4">Your browser does not support video playback. Use the link below to open the video.</video></div><div class="card-copy"><p id="caption-a">Observe how the egocentric puzzle scene evolves under Action A.</p><a href="./49435776794c3f9425a80272c5150f27.mp4">Open video A <span aria-hidden="true">↗</span></a></div></article>
+          <article class="card"><div class="card-head"><h3><span class="action-letter">B</span> Action B</h3><span class="tag">VR HAND ACTION</span></div><div class="video-wrap"><video id="videoB" controls muted playsinline loop preload="metadata" aria-label="Future video conditioned on Action B" aria-describedby="caption-b"><source src="./1c7aef96aeb8b9680c5bc72e01ecaf62.mp4" type="video/mp4">Your browser does not support video playback. Use the link below to open the video.</video></div><div class="card-copy"><p id="caption-b">Change the action condition and observe a different future response.</p><a href="./1c7aef96aeb8b9680c5bc72e01ecaf62.mp4">Open video B <span aria-hidden="true">↗</span></a></div></article>
+        </div>
+        <p class="playback-status" id="playback-status" role="status" aria-live="polite"></p>
+        <p class="demo-note">Both videos use the same type of puzzle scene to illustrate the relationship between action conditions and generated outcomes.</p>
+      </section>
+      <section class="release" id="release" aria-labelledby="release-title"><div><div class="section-label">03 / WHAT’S NEXT</div><h2 id="release-title">The next layer<br>is coming.</h2><p>Another layer of the world is about to unfold.</p></div><div class="release-details"><span class="release-badge"><span class="status-dot" aria-hidden="true"></span> COMING SOON</span><p>Video previews are available now. The full project overview, technical details, and interactive demo will follow as the project develops. A release date has not been announced.</p><dl><div><dt>Video previews</dt><dd class="available">Available now</dd></div><div><dt>Full project</dt><dd>Coming soon</dd></div><div><dt>Interactive demo</dt><dd>Coming soon</dd></div></dl></div></section>
+    </main>
+    <footer><a class="brand" href="./">DREAMFOLD</a><span>Interactive World Model · Team <span class="team-name">openspace lab</span></span><a href="#hero-title">Back to top ↑</a></footer>
+  </div>
+</body>
+</html>
